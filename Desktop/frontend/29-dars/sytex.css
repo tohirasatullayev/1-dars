@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: black;
+    
+    
+}
+ 
+
+.Home{
+    font-size: 20px;
+}
+
+header nav  a{
+    text-decoration: none;
+    color:  #ffffff;
+    
+}
+
+.btnn{
+    width: 197.753px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+main{
+    font-size: 40px;
+}
+p{
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+h1{
+    margin-bottom: 20px;
+    margin-top: 140px;
+}
+.btn{
+    width: 197.753px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #458FF6;
+    border: none;
+    color: white;
+}
+.h1{
+    width: 100px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    
+}
+.rasm{
+    width: 40px;
+    margin-bottom: 30px;
+   
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.to{
+    background-color: black;
+}
+
+
+.t{
+    color: #ffffff;
+}
+
+
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ota{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background-color: black;
+}
+.class{
+    color: #ffffff;
+}
+.abdullo{
+    margin-top: 200px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+}
+
+
+.suratlar{
+    width: 400px;
+    height: 500px;
+
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.img-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.rasim{
+      margin-top: 20px;
+      margin-left: 20px;
+}
+.murod{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.paxta{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.headerr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background: #344346;
+    
+    
+}
