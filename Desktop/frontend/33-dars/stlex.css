@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: floralwhite;
+}
+
+.switch {
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+   transition: all 0.3s ease-in-out;
+}
+.switch.active .circle {
+    transform: translateX(130px);
+    
+    background-color: rgb(255, 0, 0);
+}
+.switch.active {
+    background-color: rgb(17, 0, 255);
+}
